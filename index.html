@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <!-- AOS Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="./assets/mrt 1.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Mobile</title>
+</head>
+
+<body>
+    <header class="border-bottom">
+        <nav class="d-flex flex-wrap justify-content-center py-3 my-2 container">
+            <a href="/"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <img src="./assets/logo.png" alt="Logo" class="header-logo" />
+            </a>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <button type="button" class="btn btn-primary px-5 rounded-0 header-button" data-bs-toggle="modal"
+                        data-bs-target="#contactModal">
+                        Contact us
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="row container">
+                <div class="col-md-6">
+                    <div class="hero-content">
+                        <h1>Mobile Application Development Services</h1>
+                        <p>
+                            MedRec Technologies specializes in crafting impactful mobile apps, ensuring a seamless user experience across diverse devices.
+                        </p>
+                    </div>
+                    <button type="button" class="btn btn-primary px-5 rounded-0 header-button my-4"
+                        data-bs-toggle="modal" data-bs-target="#contactModal">
+                        Contact us
+                    </button>
+                </div>
+                <div class="col-md-6"></div>
+            </div>
+        </section>
+        <section class="py-5" data-aos="fade-up">
+            <div class="container">
+                <div class="section-heading">
+                    <h1>Transforming your vision for a mobile application into a tangible product with skilled expertise.
+                    </h1>
+                </div>
+
+                <div class="row align-items-center">
+                    <div class="col-md-7 col-12">
+                        <p class="paragraph">
+                            Uncover the potential of tailor-made mobile application development, crafted through a personalized strategy for each client. Our methodology initiates with an in-depth analysis of your specific business requirements, empowering our experts to select the optimal mobile development methodologies. This tailored strategy not only fulfills your specifications but also streamlines the development timeline and diminishes the costs associated with app creation.
+                        </p>
+                    </div>
+                    <div class="col-md-5 col-12 d-flex align-items-center">
+                        <div class="row justify-content-center stats-box-container">
+                            <div class="col-md-6 stats-box" data-aos="flip-left" data-aos-duration="100">
+                                <h5>70+</h5>
+                                <p>
+                                    Happy <br class="d-none d-md-block" />
+                                    Clients
+                                </p>
+                            </div>
+                            <div class="col-md-6 stats-box" data-aos="flip-left" data-aos-duration="200">
+                                <h5>150+</h5>
+                                <p>Resources Worldwide</p>
+                            </div>
+                            <div class="col-md-6 stats-box" data-aos="flip-left" data-aos-duration="300">
+                                <h5>10+</h5>
+                                <p>Years of Avg Experience</p>
+                            </div>
+                            <div class="col-md-6 stats-box" data-aos="flip-left" data-aos-duration="400">
+                                <h5>10+</h5>
+                                <p>Years of Expertise</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5 cta-gradient" data-aos="fade-up">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-9 col-12">
+                        <div class="cta-banner">
+                            <h5>Interested in developing a competitive app ?
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <div class="d-flex justify-content-center">
+                            <button type="button" class="rounded-1 px-5 py-2 rounded-0 button" data-bs-toggle="modal"
+                                data-bs-target="#contactModal">
+                                Contact us
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-5" data-aos="fade-up">
+            <div class="container">
+                <div class="section-heading" data-aos="fade-up" data-aos-duration="300">
+                    <h1>Our App Development Services</h1>
+                </div>
+                <div class="service-tabs"  data-aos="fade-up" data-aos-duration="500">
+                    <div class="service-tab-container">
+                        <div class="service-tab active" onclick="openTab('tab1')">
+                            <div class="service-tab-img">
+                                <img src="./assets/tech-expertise/android-icon.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="service-tab" onclick="openTab('tab2')">
+                            <div class="service-tab-img">
+                                <img src="./assets/tech-expertise/ios-icon.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="service-tab" onclick="openTab('tab3')">
+                            <div class="service-tab-img">
+                                <img src="./assets/tech-expertise/reactnative-icon.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="service-tab active" onclick="openTab('tab4')">
+                            <div class="service-tab-img">
+                                <img src="./assets/tech-expertise/flutter-icon.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="service-tab" onclick="openTab('tab5')">
+                            <div class="service-tab-img">
+                                <img src="./assets/tech-expertise/hy.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="service-tab" onclick="openTab('tab6')">
+                            <div class="service-tab-img">
+                                <img src="./assets/tech-expertise/pwa-icon.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="tab1" class="service-tab-content active">
+                        <div class="row g-0 ">
+                            <div class="col-md-12">
+                                <div class="service-tab-content-text">
+                                    <h2>Android Application Development</h2>
+                                    <p class="paragraph">
+                                        We specialize in creating bespoke Android applications that fully exploit the capabilities of the platform. Our development process ensures that each app is optimized for performance and compatibility, providing a seamless experience across the vast ecosystem of Android devices and OS versions. 
+                                    </p>
+                                    <p class="paragraph">
+                                        By focusing on scalability and adaptability, we aim to maximize the reach and impact of your Android app, ensuring it meets the needs of a diverse and growing user base.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div id="tab2" class="service-tab-content">
+                        <div class="row g-0 ">
+                            <div class="col-md-12">
+                                <div class="service-tab-content-text">
+                                    <h2>iOS Application Development</h2>
+                                    <p class="paragraph">
+                                        Our approach to iOS application development centers on producing polished and secure apps that embody the sophistication of Apple's platform. We meticulously design each application to deliver an intuitive and engaging user experience, taking full advantage of the exclusive features and robust security measures inherent to iOS.
+                                    </p>
+                                    <p class="paragraph">
+                                        Our commitment to quality ensures that your iOS app not only meets but exceeds the high standards expected by Apple users.
+                                    </p>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+
+                    <div id="tab3" class="service-tab-content">
+                        <div class="row g-0 ">
+                            <div class="col-md-12">
+                                <div class="service-tab-content-text">
+                                    <h2>React Native App Development</h2>
+                                    <p class="paragraph">
+                                        React Native stands at the forefront of our cross-platform development services, enabling us to craft applications that offer a native-like experience on both iOS and Android from a single codebase. This technology merges the efficiency of web development with the performance of mobile platforms, resulting in a unified and responsive user interface. 
+                                    </p>
+                                    <p class="paragraph">
+                                        Our expertise in React Native ensures rapid development cycles and a cost-effective path to market for your cross-platform app.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div id="tab4" class="service-tab-content">
+                        <div class="row g-0 ">
+                            <div class="col-md-12">
+                                <div class="service-tab-content-text">
+                                    <h2>Flutter Application Development</h2>
+                                    <p class="paragraph">
+                                        Flutter is our tool of choice for developing visually impressive and smoothly functioning applications that are compiled natively for mobile, web, and desktop from a unified codebase. Flutter's rich set of fully-customizable widgets allows us to create expressive UIs that come to life with smooth animations and transitions. 
+
+                                    </p>
+                                    <p class="paragraph">
+                                        Our Flutter apps are characterized by their high performance and responsiveness, making them stand out in the competitive app market.
+                                    </p>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div id="tab5" class="service-tab-content">
+                        <div class="row g-0 ">
+                            <div class="col-md-12">
+                                <div class="service-tab-content-text">
+                                    <h2>Hybrid Application Development </h2>
+                                    <p class="paragraph">
+                                        Our hybrid application development services merge the reach of web apps with the power of native applications. By utilizing a single codebase that runs on multiple platforms, we provide a cost-effective and time-efficient solution for businesses looking to establish a presence across various devices. 
+                                    </p>
+                                    <p class="paragraph">
+                                        Our hybrid apps are designed to offer a consistent and engaging user experience, regardless of the platform or device.
+                                    </p>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div id="tab6" class="service-tab-content">
+                        <div class="row g-0 ">
+                            <div class="col-md-12">
+                                <div class="service-tab-content-text">
+                                    <h2>Progressive Web App Development (PWAs)</h2>
+                                    <p class="paragraph">
+                                        Progressive Web Apps represent the next wave in web technology, blurring the line between web and mobile apps. Our PWAs are designed to be fast, reliable, and engaging, providing users with an app-like experience directly in their browsers. 
+                                    </p>
+                                    <p class="paragraph">
+                                        With features like offline functionality, push notifications, and home screen installation, our PWAs offer the performance and user engagement typically associated with native apps, while being accessible through a simple URL.
+                                    </p>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 rainbow-bg"  data-aos="fade-up" >
+            <div class="container">
+                <div class="section-heading"  data-aos="fade-up" data-aos-duration="300">
+                    <h1>Discover why we're your ideal partner for your dream mobile app.</h1>
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="col-md-6"  data-aos="fade-up" data-aos-duration="600">
+                            <div class="ideal-service">
+                                <h2>Custom mobile app development</h2>
+                                <p class="paragraph">
+                                    We provide specialized mobile app development for various sectors, including FinTech, healthcare, e-commerce, and more. Our expertise spans both native and cross-platform applications, ensuring high performance and user engagement. We work with you to deliver a mobile solution that aligns with your industry needs, whether it's to streamline services or enhance customer interaction.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6"  data-aos="fade-up" data-aos-duration="600"> 
+                            <div class="ideal-service">
+                                <h2>Dedicated app development team</h2>
+                                <p class="paragraph">
+                                    Engage with our team of certified mobile app developers, QA engineers, UI/UX designers, and project managers who are committed to your project full-time. Benefit from their expertise and round-the-clock support to ensure your project's success.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6"  data-aos="fade-up" data-aos-duration="900">
+                            <div class="ideal-service">
+                                <h2>Consulting and prototyping</h2>
+                                <p class="paragraph">
+                                    MedRec Technologies, with its two decades of experience, provides expert consulting services to help clients select the optimal technology stack and feature set for their projects. We craft a clear implementation roadmap, ensuring the creation of iOS, Android, and cross-platform applications that align with the expectations of the end-users.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6"  data-aos="fade-up" data-aos-duration="900">
+                            <div class="ideal-service">
+                                <h2>Maintenance and support</h2>
+                                <p class="paragraph">
+                                    Our commitment extends beyond the launch of your app. We offer on-demand support and maintenance services to ensure uninterrupted, efficient operation of your product, guaranteeing a seamless user experience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 "  data-aos="fade-up" >
+            <div class="container">
+                <div class="section-heading"  data-aos="fade-up" data-aos-duration="300">
+                    <h1>Explore technical capabilities</h1>
+                </div>
+
+                <div class="technology-tabs"  data-aos="fade-up" data-aos-duration="600">
+                    <div class="technology-tab-container">
+                        <div class="technology-tab active" onclick="openTechnologyTab('technologyTab1')">
+                            <p>Android</p>
+                        </div>
+                        <div class="technology-tab" onclick="openTechnologyTab('technologyTab2')">
+                            <p>iOS</p>
+                        </div>
+                        <div class="technology-tab" onclick="openTechnologyTab('technologyTab3')">
+                            <p>Hybrid</p>
+                        </div>
+
+                    </div>
+
+                    <div id="technologyTab1" class="technology-tab-content active">
+                        <div class="technology-container">
+                            <div class="technology-card">
+                                <div class="technology-tab-img">
+                                    <img src="./assets/technical/java.svg" alt="" />
+                                </div>
+                                <p>Java</p>
+                            </div>
+                            <div class="technology-card">
+                                <div class="technology-tab-img">
+                                    <img src="./assets/technical/Kotlin.svg" alt="" />
+                                </div>
+                                <p>Kotlin</p>
+                            </div>
+                            <div class="technology-card">
+                                <div class="technology-tab-img">
+                                    <img src="./assets/technical/AndroidStudio.svg" alt="" />
+                                </div>
+                                <p>Android Studio</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div id="technologyTab2" class="technology-tab-content">
+                        <div class="technology-container">
+                            <div class="technology-card">
+                                <div class="technology-tab-img">
+                                    <img src="./assets/technical/Objective-C.png" alt="" />
+                                </div>
+                                <p>Objective-C</p>
+                            </div>
+                            <div class="technology-card">
+                                <div class="technology-tab-img">
+                                    <img src="./assets/technical/Swift.svg" alt="" />
+                                </div>
+                                <p>Swift</p>
+                            </div>
+                            <div class="technology-card">
+                                <div class="technology-tab-img">
+                                    <img src="./assets/technical/swiftui.png" alt="" />
+                                </div>
+                                <p>Swift UI</p>
+                            </div>
+                          
+                           
+
+                        </div>
+                    </div>
+
+                    <div id="technologyTab3" class="technology-tab-content">
+                        <div class="technology-container">
+                            <div class="technology-card">
+                                <div class="technology-tab-img">
+                                    <img src="./assets/technical/reactnative.svg" alt="" />
+                                </div>
+                                <p>React Native</p>
+                            </div>
+                            <div class="technology-card">
+                                <div class="technology-tab-img">
+                                    <img src="./assets/technical/Xamarin.svg" alt="" />
+                                </div>
+                                <p>Xamarin</p>
+                            </div>
+                           
+                            <div class="technology-card">
+                                <div class="technology-tab-img">
+                                    <img src="./assets/technical/Flutter1.svg" alt="" />
+                                </div>
+                                <p>Flutter</p>
+                            </div>
+                            
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+        <section class="py-5 cta-gradient" data-aos="fade-up">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-9 col-12">
+                        <div class="cta-banner">
+                            <h5>Ready to turn your app idea into reality?</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <div class="d-flex justify-content-center">
+                            <button type="button" class="rounded-1 px-5 py-2 rounded-0 button" data-bs-toggle="modal"
+                                data-bs-target="#contactModal">
+                                Contact us
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 "  data-aos="fade-up" >
+            <div class="container">
+                <div class="section-heading"  data-aos="fade-up" data-aos-duration="300">
+                    <h1>Process we Follow</h1>
+                </div>
+
+                <div class="d-block d-lg-none"  data-aos="fade-up" data-aos-duration="500">
+                    <div class="mb-2 p2">
+                        <div class="process-tab-card">
+                            <h2>01</h2>
+                            <p>Discovery and Planning</p>
+                        </div>
+                        <div class="process-container">
+
+                            <p class="paragraph">
+                                Our specialists conduct a thorough analysis of requirements, select and rank the app's features, and devise a strategic plan that aligns with your schedule and financial plan.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mb-2 p2">
+                        <div class="process-tab-card">
+                            <h2>02</h2>
+                            <p>Design</p>
+                        </div>
+                        <div class="process-container">
+
+                            <p class="paragraph">
+                                We guide you in selecting a color scheme and typography that reflect your brand, crafting a lively prototype, and shaping a user interface that's both appealing and easy to navigate.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mb-2 p2">
+                        <div class="process-tab-card">
+                            <h2>03</h2>
+                            <p>Prototype</p>
+                        </div>
+                        <div class="process-container">
+
+                            <p class="paragraph">
+                                A functional prototype is presented to gather user feedback early on, ensuring the viability of features. We then assist in evaluating this feedback and making necessary enhancements.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mb-2 p2">
+                        <div class="process-tab-card">
+                            <h2>04</h2>
+                            <p>Publication on App Store</p>
+                        </div>
+                        <div class="process-container">
+
+                            <p class="paragraph">
+                                Our apps are launched in accordance with the rigorous criteria set by the App Store and Google Play, ensuring a smooth approval process.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mb-2 p2">
+                        <div class="process-tab-card">
+                            <h2>05</h2>
+                            <p>Maintenance and Customization</p>
+                        </div>
+                        <div class="process-container">
+
+                            <p class="paragraph">
+                                MedRec is dedicated to developing and implementing a strategy for product expansion to boost user interaction. Our team offers tailored maintenance services, refining the mobile app based on user input.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-lg-block"  data-aos="fade-up" data-aos-duration="500">
+                    <div class="process-tabs">
+                        <div class="process-tab-container">
+                            <div  class="process-tab active" onmouseover="openProcessTab('processTab1')">
+                                <div class="process-tab-card">
+                                    <h2>01</h2>
+                                    <p>Discovery and Planning</p>
+                                </div>
+                                <div class="dot"><i class="bi bi-dot"></i></div>
+                            </div>
+                            <div  class="process-tab" onmouseover="openProcessTab('processTab2')">
+                                <div class="process-tab-card">
+                                    <h2>02</h2>
+                                    <p>Design
+                                    </p>
+                                    <div class="dot"><i class="bi bi-dot"></i></div>
+                                </div>
+                            </div>
+                            <div  class="process-tab" onmouseover="openProcessTab('processTab3')">
+                                <div class="process-tab-card">
+                                    <h2>03</h2>
+                                    <p>Prototype </p>
+                                    <div class="dot"><i class="bi bi-dot"></i></div>
+                                </div>
+                            </div>
+                            <div  class="process-tab" onmouseover="openProcessTab('processTab4')">
+                                <div class="process-tab-card">
+                                    <h2>04</h2>
+                                    <p>Publication on App Store</p>
+                                    <div class="dot"><i class="bi bi-dot"></i></div>
+                                </div>
+                            </div>
+                            <div  class="process-tab" onmouseover="openProcessTab('processTab5')">
+                                <div class="process-tab-card">
+                                    <h2>05</h2>
+                                    <p>Maintenance and Customization</p>
+                                    <div class="dot"><i class="bi bi-dot"></i></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div id="processTab1" class="process-tab-content active">
+                            <div class="process-container">
+                                <h2>Discovery and Planning</h2>
+                                <p class="paragraph">
+                                    Our specialists conduct a thorough analysis of requirements, select and rank the app's features, and devise a strategic plan that aligns with your schedule and financial plan.
+                                </p>
+
+
+                            </div>
+                        </div>
+
+                        <div id="processTab2" class="process-tab-content">
+                            <div class="process-container">
+                                <h2>Design</h2>
+                                <p class="paragraph">
+                                    We guide you in selecting a color scheme and typography that reflect your brand, crafting a lively prototype, and shaping a user interface that's both appealing and easy to navigate.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="processTab3" class="process-tab-content">
+                            <div class="process-container">
+                                <h2>Prototype</h2>
+                                <p class="paragraph">
+                                    A functional prototype is presented to gather user feedback early on, ensuring the viability of features. We then assist in evaluating this feedback and making necessary enhancements.
+                                </p>
+
+                            </div>
+                        </div>
+                        <div id="processTab4" class="process-tab-content ">
+                            <div class="process-container">
+                                <h2>Publication on App Store</h2>
+                                <p class="paragraph">
+                                    Our apps are launched in accordance with the rigorous criteria set by the App Store and Google Play, ensuring a smooth approval process.    
+                                </p>
+
+
+                            </div>
+                        </div>
+                        <div id="processTab5" class="process-tab-content ">
+                            <div class="process-container">
+                                <h2>Maintenance and Customization</h2>
+                                <p class="paragraph">
+                                    MedRec is dedicated to developing and implementing a strategy for product expansion to boost user interaction. Our team offers tailored maintenance services, refining the mobile app based on user input.
+                                </p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="py-5 light-bg"  data-aos="fade-up" >
+            <div class="container">
+                <div class="section-heading"  data-aos="fade-up" data-aos-duration="300">
+                    <h1>Industry We Served</h1>
+                </div>
+
+                <div class="industry-container"  data-aos="fade-up" data-aos-duration="500">
+                    <div class="industry-card"  data-aos="fade-up" data-aos-duration="900">
+                        <div class="industry-tab-img">
+                            <img src="./assets/technology/advertisement.svg" alt="" />
+                        </div>
+                        <div class="line"></div>
+                        <p>Advertisement</p>
+                    </div>
+                    <div class="industry-card"  data-aos="fade-up" data-aos-duration="900">
+                        <div class="industry-tab-img">
+                            <img src="./assets/technology/automobile.svg" alt="" />
+                        </div>
+                        <div class="line"></div>
+                        <p>Automobile</p>
+                    </div>
+                    <div class="industry-card"  data-aos="fade-up" data-aos-duration="900">
+                        <div class="industry-tab-img">
+                            <img src="./assets/technology/banking.svg" alt="" />
+                        </div>
+                        <div class="line"></div>
+                        <p>Banking</p>
+                    </div>
+                    <div class="industry-card"  data-aos="fade-up" data-aos-duration="900">
+                        <div class="industry-tab-img">
+                            <img src="./assets/technology/e-commerc.svg" alt="" />
+                        </div>
+                        <div class="line"></div>
+                        <p>E-Commerce</p>
+                    </div>
+                    <div class="industry-card"  data-aos="fade-up" data-aos-duration="900">
+                        <div class="industry-tab-img">
+                            <img src="./assets/technology/education.svg" alt="" />
+                        </div>
+                        <div class="line"></div>
+                        <p>Education</p>
+                    </div>
+                    <div class="industry-card"  data-aos="fade-up" data-aos-duration="900">
+                        <div class="industry-tab-img">
+                            <img src="./assets/technology/energy.svg" alt="" />
+                        </div>
+                        <div class="line"></div>
+                        <p>Energy & Gas</p>
+                    </div>
+                    <div class="industry-card"  data-aos="fade-up" data-aos-duration="900">
+                        <div class="industry-tab-img">
+                            <img src="./assets/technology/Entertainment.png" alt="" />
+                        </div>
+                        <div class="line"></div>
+                        <p>Entertainment</p>
+                    </div>
+                    <div class="industry-card"  data-aos="fade-up" data-aos-duration="900">
+                        <div class="industry-tab-img">
+                            <img src="./assets/technology/Event.svg" alt="" />
+                        </div>
+                        <div class="line"></div>
+                        <p>Event Management</p>
+                    </div>
+                    <div class="industry-card"  data-aos="fade-up" data-aos-duration="900">
+                        <div class="industry-tab-img">
+                            <img src="./assets/technology/fintech.svg" alt="" />
+                        </div>
+                        <div class="line"></div>
+                        <p>Fintech</p>
+                    </div>
+                    <div class="industry-card"  data-aos="fade-up" data-aos-duration="900">
+                        <div class="industry-tab-img">
+                            <img src="./assets/technology/healthcare.svg" alt="" />
+                        </div>
+                        <div class="line"></div>
+                        <p>Healthcare</p>
+                    </div>
+                    <div class="industry-card"  data-aos="fade-up" data-aos-duration="900">
+                        <div class="industry-tab-img">
+                            <img src="./assets/technology/kpo.svg" alt="" />
+                        </div>
+                        <div class="line"></div>
+                        <p>KPO & BPO</p>
+                    </div>
+                    <div class="industry-card"  data-aos="fade-up" data-aos-duration="900">
+                        <div class="industry-tab-img">
+                            <img src="./assets/technology/logistic.svg" alt="" />
+                        </div>
+                        <div class="line"></div>
+                        <p>Logistic</p>
+                    </div>
+                    <div class="industry-card"  data-aos="fade-up" data-aos-duration="900">
+                        <div class="industry-tab-img">
+                            <img src="./assets/technology/payment.svg" alt="" />
+                        </div>
+                        <div class="line"></div>
+                        <p>Payment</p>
+                    </div>
+                    <div class="industry-card"  data-aos="fade-up" data-aos-duration="900">
+                        <div class="industry-tab-img">
+                            <img src="./assets/technology/real-estate.svg" alt="" />
+                        </div>
+                        <div class="line"></div>
+                        <p>Real Estate</p>
+                    </div>
+                    <div class="industry-card"  data-aos="fade-up" data-aos-duration="900">
+                        <div class="industry-tab-img">
+
+                            <img src="./assets/technology/recruitment.svg" alt="" />
+                        </div>
+                        <div class="line"></div>
+                        <p>Recruitment</p>
+                    </div>
+                    <div class="industry-card"  data-aos="fade-up" data-aos-duration="900">
+                        <div class="industry-tab-img">
+
+                            <img src="./assets/technology/Sports.svg" alt="" />
+                        </div>
+                        <div class="line"></div>
+                        <p>Sports</p>
+                    </div>
+                    <div class="industry-card"  data-aos="fade-up" data-aos-duration="900">
+                        <div class="industry-tab-img">
+
+                            <img src="./assets/technology/technology.svg" alt="" />
+                        </div>
+                        <div class="line"></div>
+                        <p>Technology</p>
+                    </div>
+                    <div class="industry-card"  data-aos="fade-up" data-aos-duration="900">
+                        <div class="industry-tab-img">
+
+                            <img src="./assets/technology/travel.svg" alt="" />
+                        </div>
+                        <div class="line"></div>
+                        <p>Travel</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section class="py-5 gradient-bg" data-aos="fade-up">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 px-4" data-aos="fade-up" data-aos-duration="300">
+                        <form class="contact-form p-4">
+                            <div class="contact-form-text mb-3">
+                                <h2 class="fw-semibold">Seeking digital excellence?</h2>
+                                <p class="paragraph">
+                                    Tell us your project vision and receive expert insights,
+                                    practical feedback, and suitable engagement options from our
+                                    leadership.
+                                </p>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-md-6">
+                                    <div class=" ">
+                                        <input class="form-control" type="text" placeholder="Full Name" />
+                                        <div class="form-text text-danger d-none"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="">
+                                        <input class="form-control" type="email" placeholder="Email" />
+                                        <div class="contact-warning text-danger">
+                                            We'll never share your email with anyone else.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-md-6">
+                                    <div class=" ">
+                                        <input class="form-control" type="text" placeholder="Phone No" />
+                                        <div class="form-text d-none text-danger"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class=" ">
+                                        <input class="form-control" type="text" placeholder="Company Name" />
+                                        <div class="form-text d-none text-danger"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mb-2">
+                                <!-- <input class="form-control" type="text" placeholder="Phone No" > -->
+                                <div class="form-text d-none text-danger"></div>
+                            </div>
+                            <div class="mb-2 file-position-container">
+                                <textarea class="form-control" placeholder="About Project" rows="3"></textarea>
+                                <div class="file-upload-container">
+                                    <div class="file-upload">
+                                        <i class="bi bi-link-45deg btn border-0"></i>
+                                        <input type="file" placeholder="file-upload" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-between bg-body-secondary align-items-center p-1">
+                                <p class="m-0">File name</p>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-x-lg" viewBox="0 0 16 16">
+                                        <path
+                                            d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="mb-4 mt-1 contact-form-check">
+                                <input class="" type="checkbox" value="" id="checkboxNDA" placeholder="checkboxNDA" />
+                                <label class="" for="checkboxNDA"> Send me an NDA </label>
+                            </div>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-outline-dark fw-semibold px-5 w-100">
+                                    Submit
+                                </button>
+                            </div>
+                            <div class="contact-form-privacy">
+                                <p>
+                                    By submitting this form, you agree to MedRec Technologies
+                                    <a href="https://medrectech.com/privacy" target="_blank" rel="noopener">Privacy
+                                        Policy</a>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6" data-aos="fade-up" data-aos-duration="300">
+                        <div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-stats">
+                                        <h5>10+ Years</h5>
+                                        <p>of experience crafting exceptional software</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-stats">
+                                        <h5>7.5+ Years</h5>
+                                        <p>clients spend with us on average</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-stats">
+                                        <h5>70+</h5>
+                                        <p>successful projects for startups and enterprises</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 my-4">
+                                    <hr />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 d-flex align-items-center">
+                                    <i class="bi bi-check-circle-fill form-checklist-icon me-3"></i>
+                                    <div class="form-checklist">
+                                        <h5>NDA Included</h5>
+                                        <p>Strict adherence to confidentiality</p>
+                                    </div>
+                                </div>
+                                <div class="col-6 d-flex align-items-center">
+                                    <i class="bi bi-check-circle-fill form-checklist-icon me-3"></i>
+                                    <div class="form-checklist">
+                                        <h5>IP rights secured</h5>
+                                        <p>Strict adherence to confidentiality</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 my-4">
+                                    <hr />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-12 mb-4">
+                                    <div class="contact-details">
+                                        <h5>Got Question</h5>
+                                        <a href="mailto:raman@medrectechnologies.com">
+                                            <p>raman@medrectechnologies.com</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12 mb-4">
+                                    <div class="contact-details">
+                                        <h5>Want to Talk to Us?</h5>
+                                        <a href="tel:+1 415 230 0398">
+                                            <p>
+                                                <span class="me-2 fw-semibold">USA :</span>+1 415 230
+                                                0398
+                                            </p>
+                                        </a>
+                                        <a href="tel:+44 20 8638 5064">
+                                            <p>
+                                                <span class="me-2 fw-semibold">UK :</span>+44 20 8638
+                                                5064
+                                            </p>
+                                        </a>
+                                        <a href="tel:+91 950 997 43322">
+                                            <p>
+                                                <span class="me-2 fw-semibold">India :</span>+91 950
+                                                997 4332
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12 mb-4">
+                                    <div class="contact-details">
+                                        <h5>Want to Join Our Team?</h5>
+                                        <a href="mailto:hello@medrectechnologies.com">
+                                            <p>hello@medrectechnologies.com</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="py-5 bg-footer pb-3">
+        <div class="container">
+            <div class="px-5">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="office-card">
+                            <div>
+                                <img src="./assets/india.png" alt="india" />
+                            </div>
+                            <h5>
+                                H-31, IT Park MIA Extension, Udaipur,<br class="d-none d-md-block" />
+                                Rajasthan, 313002
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="office-card">
+                            <div>
+                                <img src="./assets/usa.png" alt="usa" />
+                            </div>
+                            <h5>
+                                50 - 60 Francisco St, San Francisco,
+                                <br class="d-none d-md-block" />
+                                CA 94133
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="office-card">
+                            <div>
+                                <img src="./assets/uk.png" alt="uk" />
+                            </div>
+                            <h5>
+                                1 St. Katharine's Way, London <br class="d-none d-md-block" />
+                                E1W 1UN
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div>
+                <div class="footer-foot row">
+                    <div class="col-md-7">
+                        <div class="footer-copy-container">
+                            <span>© 2024 MedRec Technologies</span> |
+                            <a href="https://medrectech.com/home/sitemap" target="_blank" rel="noopener">Sitemap</a>
+                            |
+                            <a href="https://medrectech.com/privacy" target="_blank" rel="noopener">Privacy Policy</a>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="text-center text-md-end">
+                            <a class="linkedin me-2" href="https://www.linkedin.com/company/medrectechnologies/"
+                                rel="noopener" target="_blank">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M27.2 0H4.8C2.14903 0 0 2.14903 0 4.8V27.2C0 29.851 2.14903 32 4.8 32H27.2C29.851 32 32 29.851 32 27.2V4.8C32 2.14903 29.851 0 27.2 0Z"
+                                        fill="#0077B5" />
+                                    <path
+                                        d="M8.875 10.9375C10.1522 10.9375 11.1875 9.90216 11.1875 8.625C11.1875 7.34784 10.1522 6.3125 8.875 6.3125C7.59784 6.3125 6.5625 7.34784 6.5625 8.625C6.5625 9.90216 7.59784 10.9375 8.875 10.9375Z"
+                                        fill="white" />
+                                    <path d="M15.25 12.125V24.5V12.125ZM8.875 12.125V24.5V12.125Z" fill="white" />
+                                    <path d="M15.25 12.125V24.5M8.875 12.125V24.5" stroke="white"
+                                        stroke-width="4.125" />
+                                    <path
+                                        d="M17.25 17.625C17.25 16.375 18.0625 15.125 19.5 15.125C21 15.125 21.5625 16.25 21.5625 17.9375V24.5H25.6875V17.4375C25.6875 13.625 23.6875 11.875 20.9375 11.875C18.8125 11.875 17.75 13.0625 17.25 13.875"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                            <a class="facebook me-2" href="https://www.facebook.com/medrectechnologies/" rel="noopener"
+                                target="_blank">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M30.2338 32C31.209 32 31.9998 31.2092 31.9998 30.2339V1.76609C31.9998 0.790483 31.2089 0 30.2338 0H1.76609C0.790483 0 0 0.790603 0 1.76609V30.2338C0 31.2092 0.790483 31.9999 1.76609 31.9999L30.2338 32Z"
+                                        fill="#485A96" />
+                                    <path
+                                        d="M22.0794 31.9999V19.6078H26.2389L26.8616 14.7784H22.0793V11.695C22.0793 10.2967 22.4675 9.3439 24.4727 9.3439L27.03 9.34271V5.02328C26.5877 4.96453 25.0695 4.83301 23.3035 4.83301C19.6163 4.83301 17.092 7.0836 17.092 11.2168V14.7784H12.9219V19.6078H17.092V31.9998L22.0794 31.9999Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                            <a class="instagram me-2" href="https://www.instagram.com/medrectech/" rel="noopener"
+                                target="_blank">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M25.1429 0H6.85714C3.07005 0 0 3.07005 0 6.85714V25.1429C0 28.93 3.07005 32 6.85714 32H25.1429C28.93 32 32 28.93 32 25.1429V6.85714C32 3.07005 28.93 0 25.1429 0Z"
+                                        fill="url(#paint0_radial_1025_1167)" />
+                                    <path
+                                        d="M25.1429 0H6.85714C3.07005 0 0 3.07005 0 6.85714V25.1429C0 28.93 3.07005 32 6.85714 32H25.1429C28.93 32 32 28.93 32 25.1429V6.85714C32 3.07005 28.93 0 25.1429 0Z"
+                                        fill="url(#paint1_radial_1025_1167)" />
+                                    <path
+                                        d="M25.1429 0H6.85714C3.07005 0 0 3.07005 0 6.85714V25.1429C0 28.93 3.07005 32 6.85714 32H25.1429C28.93 32 32 28.93 32 25.1429V6.85714C32 3.07005 28.93 0 25.1429 0Z"
+                                        fill="url(#paint2_radial_1025_1167)" />
+                                    <path
+                                        d="M23.9999 9.71429C23.9999 10.661 23.2323 11.4286 22.2856 11.4286C21.3388 11.4286 20.5713 10.661 20.5713 9.71429C20.5713 8.76751 21.3388 8 22.2856 8C23.2323 8 23.9999 8.76751 23.9999 9.71429Z"
+                                        fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M15.9999 21.7142C19.1558 21.7142 21.7142 19.1558 21.7142 15.9999C21.7142 12.844 19.1558 10.2856 15.9999 10.2856C12.844 10.2856 10.2856 12.844 10.2856 15.9999C10.2856 19.1558 12.844 21.7142 15.9999 21.7142ZM15.9999 19.4285C17.8935 19.4285 19.4285 17.8935 19.4285 15.9999C19.4285 14.1063 17.8935 12.5714 15.9999 12.5714C14.1063 12.5714 12.5714 14.1063 12.5714 15.9999C12.5714 17.8935 14.1063 19.4285 15.9999 19.4285Z"
+                                        fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M4.57129 15.543C4.57129 11.7026 4.57129 9.78239 5.31867 8.3156C5.97609 7.02534 7.02509 5.97633 8.31536 5.31892C9.78215 4.57153 11.7024 4.57153 15.5427 4.57153H16.457C20.2973 4.57153 22.2176 4.57153 23.6843 5.31892C24.9746 5.97633 26.0236 7.02534 26.681 8.3156C27.4284 9.78239 27.4284 11.7026 27.4284 15.543V16.4572C27.4284 20.2976 27.4284 22.2178 26.681 23.6846C26.0236 24.9748 24.9746 26.0239 23.6843 26.6812C22.2176 27.4287 20.2973 27.4287 16.457 27.4287H15.5427C11.7024 27.4287 9.78215 27.4287 8.31536 26.6812C7.02509 26.0239 5.97609 24.9748 5.31867 23.6846C4.57129 22.2178 4.57129 20.2976 4.57129 16.4572V15.543ZM15.5427 6.85725H16.457C18.4149 6.85725 19.7458 6.85903 20.7746 6.94308C21.7768 7.02495 22.2892 7.17335 22.6467 7.3555C23.5068 7.79379 24.2061 8.49312 24.6444 9.35325C24.8266 9.71073 24.9751 10.2232 25.0569 11.2254C25.1409 12.2542 25.1427 13.585 25.1427 15.543V16.4572C25.1427 18.4152 25.1409 19.746 25.0569 20.7748C24.9751 21.777 24.8266 22.2895 24.6444 22.647C24.2061 23.5071 23.5068 24.2064 22.6467 24.6447C22.2892 24.8268 21.7768 24.9753 20.7746 25.0571C19.7458 25.1411 18.4149 25.143 16.457 25.143H15.5427C13.5848 25.143 12.2539 25.1411 11.2251 25.0571C10.2229 24.9753 9.71049 24.8268 9.353 24.6447C8.49288 24.2064 7.79354 23.5071 7.35526 22.647C7.17311 22.2895 7.02471 21.777 6.94283 20.7748C6.85879 19.746 6.857 18.4152 6.857 16.4572V15.543C6.857 13.585 6.85879 12.2542 6.94283 11.2254C7.02471 10.2232 7.17311 9.71073 7.35526 9.35325C7.79354 8.49312 8.49288 7.79379 9.353 7.3555C9.71049 7.17335 10.2229 7.02495 11.2251 6.94308C12.2539 6.85903 13.5848 6.85725 15.5427 6.85725Z"
+                                        fill="white" />
+                                    <defs>
+                                        <radialGradient id="paint0_radial_1025_1167" cx="0" cy="0" r="1"
+                                            gradientUnits="userSpaceOnUse"
+                                            gradientTransform="translate(11.4286 24) rotate(-55.3758) scale(29.1653)">
+                                            <stop stop-color="#B13589" />
+                                            <stop offset="0.79309" stop-color="#C62F94" />
+                                            <stop offset="1" stop-color="#8A3AC8" />
+                                        </radialGradient>
+                                        <radialGradient id="paint1_radial_1025_1167" cx="0" cy="0" r="1"
+                                            gradientUnits="userSpaceOnUse"
+                                            gradientTransform="translate(10.2857 33.1429) rotate(-65.1363) scale(25.8219)">
+                                            <stop stop-color="#E0E8B7" />
+                                            <stop offset="0.444662" stop-color="#FB8A2E" />
+                                            <stop offset="0.71474" stop-color="#E2425C" />
+                                            <stop offset="1" stop-color="#E2425C" stop-opacity="0" />
+                                        </radialGradient>
+                                        <radialGradient id="paint2_radial_1025_1167" cx="0" cy="0" r="1"
+                                            gradientUnits="userSpaceOnUse"
+                                            gradientTransform="translate(-1.71429 1.14286) rotate(-8.1301) scale(44.4467 9.5067)">
+                                            <stop offset="0.156701" stop-color="#406ADC" />
+                                            <stop offset="0.467799" stop-color="#6A45BE" />
+                                            <stop offset="1" stop-color="#6A45BE" stop-opacity="0" />
+                                        </radialGradient>
+                                    </defs>
+                                </svg>
+                            </a>
+                            <a class="twitter me-2" href="https://twitter.com/medrectech" rel="noopener"
+                                target="_blank">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <mask id="mask0_1025_1174" style="mask-type: luminance" maskUnits="userSpaceOnUse"
+                                        x="0" y="0" width="32" height="32">
+                                        <path d="M32 0H0V32H32V0Z" fill="white" />
+                                    </mask>
+                                    <g mask="url(#mask0_1025_1174)">
+                                        <path
+                                            d="M28.25 0H3.75C1.67893 0 0 1.67893 0 3.75V28.25C0 30.3211 1.67893 32 3.75 32H28.25C30.3211 32 32 30.3211 32 28.25V3.75C32 1.67893 30.3211 0 28.25 0Z"
+                                            fill="black" />
+                                        <path
+                                            d="M22.2439 6.25H25.5519L18.3249 14.51L26.8269 25.75H20.1699L14.9559 18.933L8.98987 25.75H5.67991L13.4099 16.915L5.25391 6.25H12.0799L16.7929 12.481L22.2439 6.25ZM21.0829 23.77H22.9159L11.0839 8.126H9.11687L21.0829 23.77Z"
+                                            fill="white" />
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal Start-->
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLable" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="text-end">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <form class="contact-form p-4">
+                        <div class="contact-form-text mb-3">
+                            <h2 class="fw-semibold">Seeking digital excellence?</h2>
+                            <p class="paragraph">
+                                Tell us your project vision and receive expert insights,
+                                practical feedback, and suitable engagement options from our
+                                leadership.
+                            </p>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <div class=" ">
+                                    <input class="form-control" type="text" placeholder="Full Name" />
+                                    <div class="form-text text-danger d-none"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="">
+                                    <input class="form-control" type="email" placeholder="Email" />
+                                    <div class="contact-warning text-danger">
+                                        We'll never share your email with anyone else.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-md-6">
+                                <div class=" ">
+                                    <input class="form-control" type="text" placeholder="Phone No" />
+                                    <div class="form-text d-none text-danger"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class=" ">
+                                    <input class="form-control" type="text" placeholder="Company Name" />
+                                    <div class="form-text d-none text-danger"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-2">
+                            <!-- <input class="form-control" type="text" placeholder="Phone No" > -->
+                            <div class="form-text d-none text-danger"></div>
+                        </div>
+                        <div class="mb-2 file-position-container">
+                            <textarea class="form-control" placeholder="About Project" rows="3"></textarea>
+                            <div class="file-upload-container">
+                                <div class="file-upload">
+                                    <i class="bi bi-link-45deg btn border-0"></i>
+                                    <input type="file" placeholder="file-upload" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-between bg-body-secondary align-items-center p-1">
+                            <p class="m-0">File name</p>
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-x-lg" viewBox="0 0 16 16">
+                                    <path
+                                        d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="mb-4 mt-1 contact-form-check">
+                            <input class="" type="checkbox" value="" id="checkboxNDA" placeholder="checkboxNDA" />
+                            <label class="" for="checkboxNDA"> Send me an NDA </label>
+                        </div>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-outline-dark fw-semibold px-5 w-100">
+                                Submit
+                            </button>
+                        </div>
+                        <div class="contact-form-privacy">
+                            <p>
+                                By submitting this form, you agree to MedRec Technologies
+                                <a href="https://medrectech.com/privacy" target="_blank" rel="noopener">Privacy
+                                    Policy</a>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal End -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <!-- JQuery JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- AOS Js -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
